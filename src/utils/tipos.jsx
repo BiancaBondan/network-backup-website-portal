@@ -1,0 +1,17 @@
+export const TIPOS = [
+  "Agência",
+  "Base Integrada",
+  "Centro de Distribuição",
+  "Cliente Livre",
+  "Data Center",
+  "Distribuição",
+  "Escritório",
+  "Mediador de Fronteira",
+  "Parceiro",
+  "Prodepa",
+  "Rede Transmissão",
+  "Regional",
+  "Religador",
+  "Repetidora",
+  "SEDE",
+  "Subestação"];

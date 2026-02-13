@@ -1,0 +1,117 @@
+
+.login-wrapper {
+  height: 100vh;                 /* ocupa a tela inteira */
+  width: 100vw;                  /* largura total da viewport */
+  display: flex;                 /* layout flexível */
+  flex-direction: column;        /* empilha os blocos na vertical */
+  background: #ffffff;           /* fundo branco da página */
+}
+
+
+/* =========================
+   FAIXA SUPERIOR ROXA
+   ========================= */
+.login-top {
+  background: #300d3e;           /* roxo escuro institucional */
+  height: 140px;                 /* altura da faixa superior */
+  display: flex;                 /* flex para centralizar conteúdo */
+  align-items: center;           /* centraliza verticalmente */
+  justify-content: center;       /* centraliza horizontalmente */
+  color: #ffffff;                /* texto branco */
+}
+
+
+/* TÍTULO DO PORTAL (NA FAIXA ROXA) */
+.login-top h1 {
+  font-size: 32px;               /* tamanho do texto */
+  font-weight: 600;              /* peso da fonte */
+  text-align: center;            /* texto centralizado */
+  line-height: 1.4;              /* espaçamento entre linhas */
+  margin: 0;                     /* remove margens padrão do h1 */
+}
+
+
+/* =========================
+   ÁREA DO FORMULÁRIO
+   ========================= */
+.login-content {
+  flex: 1;                       /* ocupa o restante da tela */
+  display: flex;                 /* flex para centralizar o formulário */
+  justify-content: center;       /* centraliza horizontalmente */
+  padding-top: 48px;             /* distância do topo roxo */
+}
+
+
+/* =========================
+   FORMULÁRIO DE LOGIN
+   ========================= */
+.login-form {
+  width: 360px;                  /* largura fixa do formulário */
+  background: transparent;       /* sem fundo (fica no branco da página) */
+}
+
+
+/* TÍTULO "Login" */
+.login-form h2 {
+  color: #300d3e;                /* mesma cor do topo */
+  margin-bottom: 24px;           /* espaço abaixo do título */
+  text-align: center;            /* centraliza o texto */
+}
+
+
+/* =========================
+   LABELS DOS CAMPOS
+   ========================= */
+.login-form label {
+  display: flex;                 /* permite empilhar label + input */
+  flex-direction: column;        /* label em cima, input embaixo */
+  margin-bottom: 14px;           /* espaço entre campos */
+  font-size: 18px;               /* tamanho do texto */
+  color: #300d3e;                /* roxo institucional */
+}
+
+
+/* =========================
+   CAMPOS DE INPUT
+   ========================= */
+.login-form input {
+  margin-top: 6px;               /* espaço entre label e input */
+  padding: 10px;                 /* espaço interno */
+  border-radius: 10px;           /* cantos arredondados */
+  border: none;                  /* remove borda padrão */
+  background: #ffffff;           /* fundo branco */
+  box-shadow: 0 0 0 1px #e5e7eb inset; /* borda suave interna */
+}
+
+
+/* =========================
+   BOTÃO ENTRAR
+   ========================= */
+.btn-login {
+  margin-top: 20px;              /* espaço acima do botão */
+  width: 100%;                   /* botão ocupa toda a largura */
+  padding: 12px;                 /* altura confortável */
+  border-radius: 14px;           /* botão bem arredondado */
+  background: #300d3e;           /* roxo escuro */
+  color: #ffffff;                /* texto branco */
+  border: none;                  /* sem borda */
+  font-size: 15px;               /* tamanho do texto */
+  cursor: pointer;               /* cursor de clique */
+}
+
+
+/* HOVER DO BOTÃO */
+.btn-login:hover {
+  background: #4a145f;           /* roxo um pouco mais claro */
+}
+
+
+/* =========================
+   MENSAGEM DE ERRO
+   ========================= */
+.erro {
+  color: #c00;                   /* vermelho para erro */
+  margin-top: 10px;              /* espaço acima */
+  font-size: 13px;               /* texto menor */
+  text-align: center;            /* centraliza a mensagem */
+}

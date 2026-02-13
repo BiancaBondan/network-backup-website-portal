@@ -1,0 +1,243 @@
+/* breadcrumb */
+.breadcrumb {
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #555;
+}
+
+.crumb {
+  font-weight: 500;
+}
+
+.crumb.clickable {
+  cursor: pointer;
+  color: #6b4eff;
+}
+
+.crumb.clickable:hover {
+  text-decoration: underline;
+}
+
+.crumb.active {
+  font-weight: 700;
+  color: #333;
+}
+
+.sep {
+  margin: 0 8px;
+  color: #999;
+}
+
+/* grids e cards */
+.grid-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.card {
+  padding: 16px;
+  background: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  justify-content: center; 
+  border: 1px solid #eee;
+  transition: 0.2s;
+}
+
+.card:hover {
+  border-color: #dbd4ff;
+  background: #f7f5ff;
+}
+
+.resultado-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  color: #1d0048;
+}
+.resultado-card pendencia-card {
+  padding: 16px;
+  background: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #eee;
+  transition: 0.2s;
+}
+.text-muted {
+  color: #888;
+}
+.pendencia-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Card principal */
+.pendencia-card {
+  width: 100%;
+  max-width: 600px;   /* 👈 controla o tamanho */
+  margin: 20px auto;
+}
+
+
+/* tabelas */
+.backup-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.backup-table th,
+.backup-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.backup-table th {
+  background: #f4f6fb;
+}
+
+
+/* botões */
+.btn-primary {
+  padding: 6px 12px;
+  background: #f3f0ff;
+  color: #5c14c8;
+  border-radius: 6px;
+  font-size: 13px;
+  border-color: #dbd4ff;
+
+}
+
+.btn-primary:hover {
+  background: #5a3ee6;
+}
+
+.btn-nav {
+  padding: 6px 12px;
+  background: #f3f0ff;
+  color: #5c14c8;
+  border-radius: 6px;
+  font-size: 13px;  
+  border-color: #dbd4ff;
+
+}
+
+/* h2 títulos */
+h2 {
+  color: #5c14c8;         
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* hooks*/
+.autocomplete-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+  max-height: 280px;
+  overflow-y: auto;
+  z-index: 20;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.autocomplete-item {
+  padding: 10px 12px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.autocomplete-item:hover {
+  background: #f3f0ff;
+}
+
+.autocomplete-item span {
+  font-size: 13px;
+  color: #666;
+}
+
+.autocomplete-item small {
+  font-size: 11px;
+  color: #999;
+}
+
+.autocomplete-loading {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: #777;
+}
+/*buscar caixa*/
+.search-input {
+  border: 1px solid #cbb8ff;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  padding: 8px 10px;
+}
+.button-lupa {
+  border: 1px solid #cbb8ff;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  padding: 8px 10px;
+  background-color: #f3f0ff;
+}
+
+
+/* pendencias*/
+.pendencia-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 16px;
+  border-top: 1px solid #eee; 
+  padding-top: 16px;
+
+
+
+}
+.pendencia-form {
+  width: 100%;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+/* grid de formulário */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 8px;
+  margin-top: 16px;
+}
+
+.form-grid label {
+  font-weight: 600;
+}
+
+.form-grid input,
+.form-grid select {
+  width: 100%;
+  max-width: 420px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;   
+  gap: 12px;
+  margin-top: 28px;           
+  padding-top: 16px;
+  border-top: 1px solid #eee; 
+}
+

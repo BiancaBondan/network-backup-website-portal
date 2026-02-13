@@ -1,0 +1,96 @@
+.dashboard-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 60px;
+  background: #e9e2ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 36px;
+  width: auto;
+}
+
+.header-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #5814bf
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 10px;
+}
+
+.user-info {
+  font-weight: 600;
+  color: #5a2ca0;
+}
+
+.btn-logout {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #5a2ca0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.dashboard-body {
+  flex: 1;
+  display: flex;
+}
+
+.sidebar {
+  width: 240px;
+  background: #f1ebff;
+  padding: 20px;
+}
+
+.menu-section {
+  margin-bottom: 24px;
+}
+
+.menu-section h4 {
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #5a2ca0;
+  text-transform: uppercase;
+}
+
+.menu-item {
+  display: block;
+  width: 100%;
+  margin-bottom: 6px;
+  padding: 8px 10px;
+  background: #f1ebff;
+  border: 1px solid #cbb8ff;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 12px;
+  color: #5a2ca0;
+}
+
+.menu-item:hover {
+  background: #e6ddff;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 32px;
+  background: #ffffff;
+}
