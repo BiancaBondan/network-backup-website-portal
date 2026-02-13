@@ -10,8 +10,8 @@ Web-based system for managing network device inventory, configuration, backups a
 
 ### Inventory Management
 - Structured JSON-based device inventory
-- Normalized device fields (Hostname, Model, Serial, Location, Type)
-- Alternative IP support
+- Normalized device fields (Hostname, Model, Serial, Location, Type, Vendor)
+- Loopback IP
 - Autocomplete search by IP
 
 ### Backup Management
@@ -28,7 +28,7 @@ Web-based system for managing network device inventory, configuration, backups a
 
 ### Python Network Automation
 - Multi-vendor device handling
-- Switch automation (Cisco, Datacom, Huawei, etc.)
+- Switch automation (Cisco, Datacom, Huawei, Alcatel, HP, Aruba, Juniper, Mikrotik)
 - Firewall automation (Fortinet and others)
 - Structured device type detection
 - Automated inventory enrichment from scan results
